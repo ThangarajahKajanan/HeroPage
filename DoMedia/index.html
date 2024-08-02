@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page using HTML CSS & JS</title>
+    <!-- ==== css ==== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+        <!-- ==== NAVBAR ==== -->
+        <header>
+            <nav class="navbar container">
+
+                <div class="logo">
+                    <img src="img/site-logo.png" alt="logo">
+                </div>
+
+               <!--  toggle btn -->
+                <button class="toggle_btn" id="toggle_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+
+                <div class="nav_menu" id="nav_menu"> 
+                    <!-- close btn  -->
+                    <button class="close_btn" id="close_btn">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <ul class="nav_menu_list"> 
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link active">home</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">About Us</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">Services</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">Testimonials</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </header>
+
+        <!-- ==== HERO ==== -->
+        <main class="hero">
+            <section class="wrapper">
+                <div class="hero_content">
+                    <!-- div 1 - image -->
+                    <div class="hero_img_wrapper">
+                        <div class="hero_img">
+                            <img src="img/laptop.png" alt="img">
+                        </div>
+                    </div>
+                     <!-- div 2 - text -->
+                    <div class="hero_about_wrapper">
+                        <div class="hero_about">
+                           <div class="main_title">
+                                <h1>
+                                    Don't look anywhere,
+                                   <br />
+                                   This is the best place on web
+                                </h1>
+                           </div>
+                           <div class="tagline">
+                               <p> Living in today's metropolitan world of cellular phones, 
+                                mobile computers and other high-tech gadgets is not just hectic but very</p>
+                           </div>
+                           <div class="btn_wrapper">
+                               <button class="btn_watch">Get Started<img src="img/arrow-right.png" class="ri-play-line"></img></button>
+                           </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+<!-- ==== MAIN.JS ==== -->
+<script src="./js/main.js" defer></script>  
+</body>
+</html>
